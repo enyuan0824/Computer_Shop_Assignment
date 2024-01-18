@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.New_Shop"
+        tools:targetApi="31">
+        <activity
+            android:name=".admin_view_order_details"
+            android:exported="false" />
+        <activity
+            android:name=".pay_success"
+            android:exported="false" />
+        <activity
+            android:name=".payment_details"
+            android:exported="false" />
+        <activity
+            android:name=".Select_address"
+            android:exported="false" />
+        <activity
+            android:name=".admin_view_current_order"
+            android:exported="false" />
+        <activity
+            android:name=".edit_address"
+            android:exported="false" />
+        <activity
+            android:name=".Payment_method"
+            android:exported="false" />
+        <activity
+            android:name=".Delivery_option"
+            android:exported="false" />
+        <activity
+            android:name=".Check_out"
+            android:exported="false" />
+        <activity
+            android:name=".product_details"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".admin_view_product"
+            android:exported="false" />
+        <activity
+            android:name=".admin_confirm_order"
+            android:exported="false" />
+        <activity
+            android:name=".admin_view_order"
+            android:exported="false" />
+        <activity
+            android:name=".admin_edit_product"
+            android:exported="false" />
+        <activity
+            android:name=".admin_inventory"
+            android:exported="false" />
+        <activity
+            android:name=".admin_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Add_address"
+            android:exported="false" />
+        <activity
+            android:name=".All_order"
+            android:exported="false" />
+        <activity
+            android:name=".My_address"
+            android:exported="false" />
+        <activity
+            android:name=".navigation"
+            android:exported="false" />
+        <activity
+            android:name=".product_homePage"
+            android:exported="false" />
+        <activity
+            android:name=".admin_add_product_page"
+            android:exported="false" />
+        <activity
+            android:name=".admin_login_page"
+            android:exported="false" />
+        <activity
+            android:name=".verify_password_page"
+            android:exported="false" />
+        <activity
+            android:name=".signup_page"
+            android:exported="false" />
+        <activity
+            android:name=".login_page"
+            android:exported="false" />
+        <activity
+            android:name=".welcome_page"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
